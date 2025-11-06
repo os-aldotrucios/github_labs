@@ -69,5 +69,13 @@ Para una configuración local, puede utilizar minikube o kind. Para obtener más
 6. Validar pods creandose:
 
     ```sh
-        kubectl get pods -n arc-systems
+    kubectl get pods -n arc-systems
     ```
+
+
+7. Adicionales:
+
+    ```sh
+    gcloud container clusters get-credentials arc-autopilot --region us-central1
+    ```
+
